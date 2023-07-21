@@ -3,7 +3,7 @@ import alanBtn from '@alan-ai/alan-sdk-web';
 import NewsCards from "./components/NewsCards/NewsCards";
 import useStyles from './styles.js';
 
-const alanKey = '8a0a83c59cc0021689a5185f33a3bbec2e956eca572e1d8b807a3e2338fdd0dc/stage'
+const alanKey = 'your-alan-api-key'
 
 function App() {
   const [news, setNews] = useState([]);
